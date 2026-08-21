@@ -22,3 +22,18 @@ p {
     margin: 20px auto;
     line-height: 1.6;
 }
+#projects {
+    margin-top: 50px;
+}
+
+.project {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
