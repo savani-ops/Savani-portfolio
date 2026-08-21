@@ -37,3 +37,34 @@ p {
 .project h3 {
     margin-bottom: 10px;
 }
+#contact {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#contact a {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#contact a:hover {
+    background-color: #555;
+}
+nav {
+    margin-bottom: 50px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #666;
+}
