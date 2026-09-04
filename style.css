@@ -136,3 +136,42 @@ section.show {
 #skills p:hover {
     transform: scale(1.1);
 }
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.welcome {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.hero-buttons a:hover {
+    transform: translateY(-4px);
+    background-color: #555;
+}
